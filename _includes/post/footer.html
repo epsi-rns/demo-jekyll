@@ -1,6 +1,6 @@
 
         {% if page.author %}
-                <div class="well">
+                <div class="rounded-box">
         {% if page.author %}
           {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.data.owner %}
         {% endif %}
@@ -12,8 +12,8 @@
           {% assign av_img = avatar.image | prepend: '/assets/site/images/authors/' %}
         {% endif %}
 
-        <div class="container">
-        <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+        <div class="p-2 text-center">
           {% if av_img %}
             <img src="{{ av_img }}" 
                  class="bio-photo" 
@@ -23,7 +23,7 @@
           {% endif %}
         </div>
                 
-        <div class="col-lg-6 col-md-8 col-sm-10">
+        <div class="p-2 ">
           <div>By <span class="fa fa-pencil"> {{ author.name }}</span><br/></div>
 
           <div>
@@ -46,15 +46,14 @@
         </div>
         </div>
 
-                </div>                
-                <!-- /well -->
+                </div>
+                <!-- /rounded-box -->
         {% endif %}
 
+                <div class="rounded-box">
+        <div class="d-flex flex-row justify-content-center align-items-center">
 
-                <div class="well">
-        <div class="container">
-
-        <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+        <div class="p-2 text-center">
             <img src="/assets/site/images/license/cc-by-sa.png" 
                  class="bio-photo" 
                  height="31"
@@ -62,12 +61,12 @@
                  alt="CC BY-SA 4.0"></a>
         </div>
 
-        <div class="col-lg-6 col-md-8 col-sm-10">
+        <div class="p-2">
             This article is licensed under:<br/>
             <a href="https://creativecommons.org/licenses/by-sa/4.0/deed">
                 <b>Attribution-ShareAlike</b> 4.0 International (CC BY-SA 4.0)</a>
         </div>
 
         </div>
-                </div>                
-                <!-- /well -->
+                </div>
+                <!-- /rounded-box -->

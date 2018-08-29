@@ -32,10 +32,12 @@ but liquid is only a template after all.
   {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.opengraph.image %}<meta property="og:image" content="{{ site.url }}{{ page.opengraph.image }}">{% endif %}
+  {% if page.opengraph.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.opengraph.image }}">
+  {% elsif layout.opengraph.image %}
+  <meta property="og:image" content="{{ site.url }}/{{ layout.opengraph.image }}">
+  {% endif %}
   <meta property="og:latitude" content="-6.193665"/>
   <meta property="og:longitude" content="106.848558"/>
   <meta property="og:locality" content="Jakarta"/>
   <meta property="og:country-name" content="Indonesia"/>
-
-

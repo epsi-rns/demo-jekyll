@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    <div class="container-fluid">
+    <main role="main" class="container-fluid maxwidth">
 
       <div class="col-xs-12 visible-xs-block">
           &nbsp;&nbsp;
@@ -21,13 +21,13 @@ layout: default
         <!-- main right col -->
         <div class="column col-xs-12 col-sm-8 col-md-9" id="main"> 
 <div id="sitedesc-image"></div>
-<article class="post well">
+<article class="rounded-box">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+  <header class="main-header">
+    <h1 class="main_title">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content">
+  <div class="main-content">
     {{ content }}
   </div>
 
@@ -36,7 +36,7 @@ layout: default
         
       </div><!-- /.row -->
 
-    </div><!-- /.container -->
+    </main><!-- /.container-fluid -->
 
 
     <!-- Menu Toggle Script -->
