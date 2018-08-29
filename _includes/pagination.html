@@ -1,0 +1,31 @@
+
+  <!-- Pagination links -->
+  <div class="pagination center-block">
+  <ul class="pagination" role="navigation" aria-labelledby="pagination-label">
+
+    {% if paginator.previous_page %}
+      <li class="blogprevious">
+      <a class="pagination-item" href="{{ paginator.previous_page_path }}" rel="prev">Previous</a>
+      </li>
+    {% else %}
+      <li class="current-page inactive">
+      <span>Previous</span>
+      </li>
+    {% endif %}
+    
+    <li class="offset-1">
+    <span class="pagination-item">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    </li>
+    
+    {% if paginator.next_page %}
+      <li class="blognext">
+      <a class="pagination-item" href="{{ paginator.next_page_path }}" rel="next">Next</a>
+      </li>
+    {% else %}
+      <li class="current-page inactive">
+      <span>Next</span>
+      </li>
+    {% endif %}
+  </ul>  
+  </div>
+

@@ -1,0 +1,81 @@
+
+<header class="site-header">
+</header>
+
+<div id="lay_top">
+  {{ site.description }}
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" 
+        data-toggle="collapse" data-target="#navbar" 
+        aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.url }}">
+        <img src="/assets/site/images/logo-orb-spiral.png" 
+             alt="{{ site.title }}" />
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div  id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">       
+        {% for link in site.data.navigation_header %}
+        
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url %}
+          {% endif %}
+          
+          {% unless link.dropdown %}
+          <li>
+            <a class="page-link" href="{{ domain }}{{ link.url }}" 
+              {% if link.url contains 'http' %}target="_blank"{% endif %}
+            >{{ link.title }}</a>
+          </li>
+          {% else %}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" 
+               data-toggle="dropdown" role="button" 
+               aria-haspopup="true" aria-expanded="false"
+            >{{ link.title }} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            {% for sublink in link.dropdown %}
+        
+              {% if sublink.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url %}
+              {% endif %}
+
+              <li>
+                <a class="page-link" href="{{ domain }}{{ sublink.url }}" 
+                  {% if sublink.url contains 'http' %}target="_blank"{% endif %}
+                >{{ sublink.title }}</a>
+              </li>
+              
+            {% endfor %}
+            </ul>
+          </li>          
+          {% endunless %}
+        {% endfor %}
+        
+        <form class="navbar-form navbar-right" action="/pages/search" method="get">
+          <input type="text" name="q" class="form-control col-lg-8" placeholder="Search...">
+        </form>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+

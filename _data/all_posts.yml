@@ -1,0 +1,48 @@
+# Helper for related links
+
+# just copy the result manually
+# from _site/pages/all_posts.yml 
+# to folder _data/all_posts.yml
+
+
+- id: 18010935
+  title: "My Mobile Post"
+  url: /mobile/2018/01/09/my-mobile-post.html
+
+- id: 18010735
+  title: "My Hugo Post"
+  url: /ssg/2018/01/07/my-hugo-post.html
+
+- id: 18010535
+  title: "My Design Post"
+  url: /design/2018/01/05/my-design-post.html
+
+- id: 14050735
+  title: "My Framework Post"
+  url: /framework/2014/05/07/my-framework-post.html
+
+- id: 14020635
+  title: "My Frontend Post"
+  url: /frontend/2014/02/06/my-frontend-post.html
+
+- id: 14020435
+  title: "My Backend Post"
+  url: /backend/2014/02/04/my-backend-post.html
+
+- id: 14020135
+  title: "My Database Post"
+  url: /database/2014/02/01/my-database-post.html
+
+- id: 14010735
+  title: "My SSG Post"
+  url: /ssg/2014/01/07/my-ssg-post.html
+
+- id: 14010335
+  title: "My Code Post"
+  url: /code/2014/01/03/my-code-post.html
+
+- id: 14010246
+  title: "A Simple Blog Post Example"
+  url: /backend/2014/01/02/example-content.html
+
+

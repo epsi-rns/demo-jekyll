@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include layout/head.html %}
+
+<body>
+  {% comment %}{% include service/google-analytics.html %}{% endcomment %}
+  {% comment %}{% include service/yandex-metrica.html %}{% endcomment %}
+
+    {% include layout/header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include layout/footer.html %}
+
+</Body>
+{% comment %}use uppercase (B)ody, anti telkom js inject{% endcomment %}
+</html>
