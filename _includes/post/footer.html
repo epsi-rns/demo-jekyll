@@ -15,7 +15,7 @@
         <div class="d-flex flex-row justify-content-center align-items-center">
         <div class="p-2 text-center">
           {% if av_img %}
-            <img src="{{ av_img }}" 
+            <img src="{{ site.baseurl }}{{ av_img }}" 
                  class="bio-photo" 
                  height="{{ avatar.height }}"
                  width="{{ avatar.width }}"
@@ -30,15 +30,15 @@
               <span>Share: </span>
               <span class="social-share-twitter">
                 <a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&amp;text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ site.url }}{{ page.url }}{% if author.twitter %}&amp;via={{ author.twitter }}{% endif %}" 
-                   title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
+                   title="Share on Twitter" itemprop="Twitter"><i class="fab fa-twitter-square"></i> Tweet</a>
               </span>
               <span class="social-share-facebook">
                 <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" 
-                   title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> Like</a>
+                   title="Share on Facebook" itemprop="Facebook"><i class="fab fa-facebook-square"></i> Like</a>
               </span>
               <span class="social-share-googleplus">
                 <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" 
-                   title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> +1</a>
+                   title="Share on Google Plus" itemprop="GooglePlus"><i class="fab fa-google-plus-square"></i> +1</a>
               </span>
               <!-- /.social-share -->
           </div>
@@ -54,7 +54,7 @@
         <div class="d-flex flex-row justify-content-center align-items-center">
 
         <div class="p-2 text-center">
-            <img src="/assets/site/images/license/cc-by-sa.png" 
+            <img src="{{ site.baseurl }}/assets/site/images/license/cc-by-sa.png" 
                  class="bio-photo" 
                  height="31"
                  width="88"

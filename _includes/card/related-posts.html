@@ -11,7 +11,7 @@
     <li>
       {% for dpost in site.data.all_posts %}
       {% if dpost.id == link_id %}
-        <a href="{{ site.baseurl}}{{ dpost.url }}">{{ dpost.title }}</a>
+        <a href="{{ site.baseurl }}{{ dpost.url }}">{{ dpost.title }}</a>
       {% endif %}
       {% endfor %}
     </li>

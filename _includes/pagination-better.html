@@ -67,10 +67,10 @@
     {% if paginator.previous_page %}
     <li class="page-item previous">
         {% if paginator.previous_page == 1 %}
-        <a class="page-link" href="{{ paginate_root }}" 
+        <a class="page-link" href="{{ site.baseurl }}{{ paginate_root }}" 
            rel="prev">&laquo;<span class="sr-only"> page</span></a>
         {% else %}
-        <a class="page-link" href="{{ paginator.previous_page_path }}" 
+        <a class="page-link" href="{{ site.baseurl }}{{ paginator.previous_page_path }}" 
            rel="prev">&laquo;<span class="sr-only"> page</span></a>
         {% endif %}
     </li>
@@ -78,7 +78,7 @@
 
     {% unless paginator.page == 1 %}
     <li class="page-item first">
-        <a class="page-link" href="{{ paginate_root }}"><span class="sr-only">page </span>1</a>
+        <a class="page-link" href="{{ site.baseurl }}{{ paginate_root }}"><span class="sr-only">page </span>1</a>
     </li>
     <li class="pages-indicator{{ indicator_first }} pages-indicator--offset-{{ relative_first }}">
         <span aria-hidden="true">...</span><span class="sr-only">Skipped pages indicator</span>
@@ -100,7 +100,7 @@
                 <span aria-hidden="true">{{ count }}</span></span>
                 {% else %}
                 <a class="page-link" 
-                   href="{{ paginate_root | append: paginate_suffix | append: count | append: '/' | replace: '//', '/' }}">
+                   href="{{ site.baseurl }}{{ paginate_root | append: paginate_suffix | append: count | append: '/' | replace: '//', '/' }}">
                    <span class="sr-only">page </span>{{ count }}</a>
                 {% endif %}
             </li>
@@ -113,7 +113,7 @@
         <span aria-hidden="true">...</span><span class="sr-only">Skipped pages indicator</span></li>
     <li class="page-item last">
         <a class="page-link" 
-           href="{{ paginate_root | append: paginate_suffix | append: totalpages | append: '/' | replace: '//', '/' }}">
+           href="{{ site.baseurl }}{{ paginate_root | append: paginate_suffix | append: totalpages | append: '/' | replace: '//', '/' }}">
         <span class="sr-only">page </span>{{ totalpages }}</a>
     </li>
     {% else %}
@@ -125,7 +125,7 @@
 
     {% if paginator.next_page %}
     <li class="page-item next">
-        <a class="page-link" href="{{ paginator.next_page_path }}" 
+        <a class="page-link" href="{{ site.baseurl }}{{ paginator.next_page_path }}" 
            rel="next">&raquo;<span class="sr-only"> page</span></a>
     </li>
     {% endif %}

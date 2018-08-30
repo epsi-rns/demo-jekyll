@@ -9,10 +9,10 @@ description: > # this means to ignore newlines until "baseurl:"
   From Coding, Design, Package Management Tweak to Desktop Customization.
 
 # the base hostname & protocol for your site
-url: "http://epsi-rns.github.io/demo-jekyll" 
+url: "http://epsi-rns.github.io" 
 
 # the subpath of your site, e.g. /blog
-baseurl: "" 
+baseurl: "/demo-jekyll" 
 
 # Missing timezone in metadata date can lead to wrong date in url
 timezone: Asia/Jakarta

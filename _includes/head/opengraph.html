@@ -15,12 +15,12 @@ but liquid is only a template after all.
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ (page.title | default: site.title) | escape }}">
   {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.opengraph.image %}
-  <meta property="og:image" content="{{ site.url }}{{ page.opengraph.image }}">
+  <meta property="og:image" content="{{ site.baseurl }}{{ page.opengraph.image }}">
   {% elsif layout.opengraph.image %}
-  <meta property="og:image" content="{{ site.url }}/{{ layout.opengraph.image }}">
+  <meta property="og:image" content="{{ site.baseurl }}/{{ layout.opengraph.image }}">
   {% endif %}
   <meta property="og:latitude" content="-6.193665"/>
   <meta property="og:longitude" content="106.848558"/>

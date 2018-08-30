@@ -194,7 +194,7 @@ Thank you for reading and visiting.
 
 
 [//]: <> ( -- -- -- links below -- -- -- )
-{% assign asset_path = '/assets/posts/backend/2014/01' %}
+{% assign asset_path = site.baseurl | append: '/assets/posts/backend/2014/01' %}
 {% assign dotfiles = 'https://gitlab.com/epsi-rns/dotfiles/tree/master/terminal' %}
 
 [image-ss-terminal-customization]: {{ asset_path }}/tmux-vim-gcc-c-asm.png
