@@ -32,14 +32,13 @@ future: false
 
 plugins:
    - jekyll-paginate
-#  - jemoji
 
 # External Services, leave blank to ignore or put true to use
 # service:
-# google_analytics_key: 
-# yandex_metrica_key: 
-# disqus_key: 
-# muut: false
-# google_adsense: 
+#   google_analytics_key: 
+#   yandex_metrica_key: 
+#   disqus_key: 
+#   muut: false
+#   google_adsense: 
    
 comments: false
