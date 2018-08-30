@@ -1,13 +1,14 @@
 # override your production parameters
-# $ jekyll serve --config _config.yml,_config_dev.yml 
+# $ jekyll serve --config _config.yml,_config_dev.yml
 
 # Server
 # port: 4001
 
-url: "http://localhost:4000" 
-
 # access from mobile
 # host: 0.0.0.0
+
+url: "http://localhost:4000"
+baseurl: "" 
 
 # External Services, leave blank to ignore or put true to use
 service:

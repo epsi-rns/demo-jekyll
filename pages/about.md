@@ -42,6 +42,6 @@ If you need, there is a guidance on how to setup Hugo Blog.
 
 [//]: <> ( -- -- -- links below -- -- -- )
 
-[image-13]: {{ site.url }}/assets/site/images/authors/epsi-13.jpg
+[image-13]:   {{ site.baseurl }}/assets/site/images/authors/epsi-13.jpg
 
-[local-blog]: {{ baseurl }}/backend/2014/01/02/example-content.html
+[local-blog]: {{ site.baseurl }}/backend/2014/01/02/example-content.html

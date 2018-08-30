@@ -5,7 +5,7 @@
       {% if page.previous %}    
       <li class="page-item previous">
         <a class="page-link" 
-           href="{{ site.url }}{{ page.previous.url }}" 
+           href="{{ site.baseurl }}{{ page.previous.url }}" 
            title="{{ page.previous.title }}">&laquo; </a>
       </li>
       {% endif %}
@@ -13,7 +13,7 @@
       {% if page.next %}    
       <li class="page-item next">
         <a class="page-link" 
-           href="{{ site.url }}{{ page.next.url }}" 
+           href="{{ site.baseurl }}{{ page.next.url }}" 
            title="{{ page.next.title }}"> &raquo;</a>
       </li>
       {% endif %}          

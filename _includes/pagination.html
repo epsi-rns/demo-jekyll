@@ -5,7 +5,7 @@
 
     {% if paginator.previous_page %}
       <li class="page-item blog_previous">
-      <a class="page-link" href="{{ paginator.previous_page_path }}" rel="prev">Previous</a>
+      <a class="page-link" href="{{ site.baseurl }}{{ paginator.previous_page_path }}" rel="prev">Previous</a>
       </li>
     {% else %}
       <li class="page-item current-page inactive">
@@ -19,7 +19,7 @@
     
     {% if paginator.next_page %}
       <li class="page-item blog_next">
-      <a class="page-link" href="{{ paginator.next_page_path }}" rel="next">Next</a>
+      <a class="page-link" href="{{ site.baseurl }}{{ paginator.next_page_path }}" rel="next">Next</a>
       </li>
     {% else %}
       <li class="page-item current-page inactive">
