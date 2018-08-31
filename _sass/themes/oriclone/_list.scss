@@ -88,11 +88,15 @@ ul.card_list li:before {
 ul li.list-content:before,
 ul#search_results li:before,
 ul.card_list li:before {
+  font-family: "Font Awesome 5 Free";
+//  font-weight: 900;
     content: '\f054';
     color: #7b8a8b; /* $gray-dark; */
 }
 
 ul li.list-month:before {
+  font-family: "Font Awesome 5 Free";
+//  font-weight: 900;
     content: '\f073';
     color: #000; /* $gray-base;     */
 }
