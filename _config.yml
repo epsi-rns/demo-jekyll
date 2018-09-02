@@ -21,7 +21,6 @@ timezone: Asia/Jakarta
 locale: en_US
 logo: /assets/site/images/authors/epsi-vexel.png
 
-
 paginate: 7
 paginate_path: "pages/blog-:num"
 

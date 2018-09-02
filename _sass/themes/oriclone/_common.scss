@@ -60,35 +60,8 @@ a:hover, a:focus {
 }
 
 
-.meta-item,
+.meta-item { margin-bottom: 15px; }
 .highlight { margin-bottom: 15px; }
-
-.highlighter-rouge {
-
-}
-
-.highlighter-rouge .highlight {
-    background: #f4f4f4;
-}
-
-.highlighter-rouge .highlight pre {
-  background-color: transparent;
-  color: #7b8a8b;
-}
-
-.highlight pre {
-    padding: 5px 20px 5px 20px;
-    border-radius: 3px;
-
-  border: 1px solid #2C3E50;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
-}
-.highlight pre:hover {
-  background-color: #444;
-  border: 1px solid #f7d316;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; 
-}
 
 .main-content table th,
 .main-content table td {

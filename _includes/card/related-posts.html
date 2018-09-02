@@ -9,7 +9,7 @@
   <ul class="card_list">
     {% for link_id in page.related_link_ids %}
     <li>
-      {% for dpost in site.data.all_posts %}
+      {% for dpost in site.data.archive %}
       {% if dpost.id == link_id %}
         <a href="{{ site.baseurl }}{{ dpost.url }}">{{ dpost.title }}</a>
       {% endif %}
