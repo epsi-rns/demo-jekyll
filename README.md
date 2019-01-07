@@ -11,6 +11,29 @@ Having an example of working site is something else.
 
 -- -- --
 
+# Running Locally
+
+```
+$ jekyll serve --config _config.yml,_config_dev.yml
+```
+
+For convenience you might need to update,
+the font awesome path in fontawesome.scss
+
+From
+
+```
+$fa-font-path:        "/demo-jekyll/assets/vendors/font-awesome-5";
+```
+
+To
+
+```
+$fa-font-path:        "/assets/vendors/font-awesome-5";
+```
+
+-- -- --
+
 Github allow a site hosted directly from a GitHub repository 
 as announced in [pages.github.com][link-pages-github].
 Further than just using github.io,
