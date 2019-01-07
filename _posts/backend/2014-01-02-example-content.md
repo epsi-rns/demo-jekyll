@@ -34,8 +34,19 @@ Terminal ricing along with CLI application, are part of desktop ricing.
 
 #### Screenshot
 
-![Terminal for Dummies][image-ss-terminal-customization]{: .img-responsive }
+{% capture ss_content %}
+<strong>OS</strong>: Gentoo<br/>
+  + <strong>WM</strong>: Openbox.<br/>
+  + Theme: Custom<br/>
+  + Background: emerge compiling<br/>
+{% endcapture %}
 
+{% include part/screenshot.html 
+   title = 'Screenshot 1: Terminal' 
+   ss_content = ss_content
+%}
+
+![Terminal for Dummies][image-ss-terminal-customization]{: .img-responsive }
 
 #### Table of Content
 

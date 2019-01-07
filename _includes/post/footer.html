@@ -1,9 +1,7 @@
+    <footer class="rounded bg-light shadow-hover border p-2 mb-4">
+      {% if page.author %}
 
-        {% if page.author %}
-                <div class="rounded-box">
-        {% if page.author %}
-          {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.data.owner %}
-        {% endif %}
+        {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.data.owner %}
         
         {% assign avatar = author.avatar %}
         {% if avatar.image contains 'http' %}
@@ -46,11 +44,9 @@
         </div>
         </div>
 
-                </div>
-                <!-- /rounded-box -->
-        {% endif %}
+      {% endif %}
 
-                <div class="rounded-box">
+
         <div class="d-flex flex-row justify-content-center align-items-center">
 
         <div class="p-2 text-center">
@@ -68,5 +64,7 @@
         </div>
 
         </div>
-                </div>
-                <!-- /rounded-box -->
+
+    </footer>
+
+

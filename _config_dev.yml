@@ -8,7 +8,9 @@
 # host: 0.0.0.0
 
 url: "http://localhost:4000"
-baseurl: "" 
+baseurl: ""
+
+paginate: 1
 
 # External Services, leave blank to ignore or put true to use
 service:

@@ -13,7 +13,8 @@ opengraph:
 Hello, my name is Epsi. I'm an open source enthusiast.
 I have made a ready to use, Jekyll site customization.
 
-Although I like command line, I'm not a hacker.
+As a normie with tmux and ViM, I like command line.
+But I'm not a hacker.
 You won't find any illegal activities in this site.
 
 This is my temporary about page. 
