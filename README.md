@@ -34,6 +34,8 @@ $fa-font-path:        "/assets/vendors/font-awesome-5";
 
 -- -- --
 
+# Preface
+
 Github allow a site hosted directly from a GitHub repository 
 as announced in [pages.github.com][link-pages-github].
 Further than just using github.io,
