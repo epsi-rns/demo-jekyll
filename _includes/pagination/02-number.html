@@ -40,7 +40,7 @@
          >1</a>
       {% else %}
         <a class="page-link"
-           href="{{ site.baseurl }}{{ site.paginate_path | relative_url | replace: ':num', page }}"
+           href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
          >{{ page }}
         </a>
       {% endif %}

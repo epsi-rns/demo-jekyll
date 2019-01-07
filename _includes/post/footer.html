@@ -1,8 +1,10 @@
     <footer class="rounded bg-light shadow-hover border p-2 mb-4">
       {% if page.author %}
+        {% assign author = site.data.authors[page.author] %}
+      {% else %}
+        {% assign author = site.data.owner %}
+      {% endif %}
 
-        {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.data.owner %}
-        
         {% assign avatar = author.avatar %}
         {% if avatar.image contains 'http' %}
           {% assign av_img = avatar.image %}
@@ -43,9 +45,6 @@
 
         </div>
         </div>
-
-      {% endif %}
-
 
         <div class="d-flex flex-row justify-content-center align-items-center">
 

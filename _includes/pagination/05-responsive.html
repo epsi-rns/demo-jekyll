@@ -123,7 +123,7 @@
            >1</a>
         {% else %}
           <a class="page-link"
-             href="{{ site.baseurl }}{{ site.paginate_path | relative_url | replace: ':num', page }}"
+             href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
            >{{ page }}
           </a>
         {% endif %}
@@ -143,7 +143,7 @@
       {% if upper_offset < total_pages %}
         <li class="page-item last">
           <a class="page-link" 
-             href="{{ site.baseurl }}{{ site.paginate_path | relative_url | replace: ':num', total_pages }}"
+             href="{{ site.paginate_path | relative_url | replace: ':num', total_pages }}"
           >{{ total_pages }}</a>
         </li>
       {% endif %}

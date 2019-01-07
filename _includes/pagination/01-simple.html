@@ -55,7 +55,7 @@
     {% unless paginator.page == total_pages %}
       <li class="page-item">
         <a class="page-link"
-           href="{{ site.baseurl }}{{ site.paginate_path | relative_url | replace: ':num', total_pages }}"
+           href="{{ site.paginate_path | relative_url | replace: ':num', total_pages }}"
            rel="last">Last</a>
       </li>
     {% else %}
