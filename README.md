@@ -17,6 +17,14 @@ Having an example of working site is something else.
 $ jekyll serve --config _config.yml,_config_dev.yml
 ```
 
+## Development Config with Empty BaseURL
+
+There is this development config with this option:
+
+```
+baseurl: ""
+```
+
 For convenience you might need to update,
 the font awesome path in fontawesome.scss
 
@@ -31,6 +39,18 @@ To
 ```
 $fa-font-path:        "/assets/vendors/font-awesome-5";
 ```
+
+## Development Config with BaseURL
+
+Setting this is sufficient.
+
+```
+baseurl: "/demo-jekyll"
+```
+
+Now you can open in browser with URL suffix:
+
+* <http://localhost:4000/demo-jekyll/>
 
 -- -- --
 
