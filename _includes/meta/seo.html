@@ -1,0 +1,12 @@
+
+{% if page.author %}
+  <meta name="author"      content="{{ page.author }}">
+{% endif %}  
+
+{% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | strip_html }}">
+{% endif %}
+
+{% if page.tags %}
+  <meta name="keywords"    content="{{ page.tags | join: ", " }}">
+{% endif %}
