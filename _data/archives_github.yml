@@ -5,6 +5,30 @@
 # to folder _data/all_posts.yml
 
 
+- id: 19061925
+  title: "Awesome WM - Statusbar Modules"
+  url: /desktop/2019/06/19/awesome-modularized-statusbar.html
+
+- id: 19061825
+  title: "Awesome WM - Binding Modules"
+  url: /desktop/2019/06/18/awesome-modularized-binding.html
+
+- id: 19061725
+  title: "Awesome WM - Main Modules"
+  url: /desktop/2019/06/17/awesome-modularized-main.html
+
+- id: 19061625
+  title: "Awesome WM - Modularized Structure"
+  url: /desktop/2019/06/16/awesome-modularized-structure.html
+
+- id: 19061525
+  title: "Awesome WM - Overview"
+  url: /desktop/2019/06/15/awesome-overview.html
+
+- id: 19061119
+  title: "Conky with Lua Scripting"
+  url: /desktop/2019/06/11/modularized-conky.html
+
 - id: 19040245
   title: "GhostBSD - Ports"
   url: /system/2019/04/02/ghostbsd-ports.html
@@ -593,11 +617,11 @@
   title: "What to Do, When the System Stuck, on Boot"
   url: /system/2016/05/19/stuck-on-boot.html
 
-- id: 16051900
+- id: 16051934
   title: "Midnight Commander Tweaking, can Help People Better"
   url: /desktop/2016/05/19/midnight-commander-tweaking.html
 
-- id: 16051800
+- id: 16051839
   title: "Becoming a Geek, a Weird Story About Nerd"
   url: /opensource/2016/05/18/becoming-geek.html
 
