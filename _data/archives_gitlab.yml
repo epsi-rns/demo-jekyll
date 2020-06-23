@@ -1,17 +1,350 @@
 # Helper for related links
 # Archives by Date
 
+
+- id: 20051517
+  title: "Template - Koa"
+  url: /frontend/2020/05/15/template-koa/
+  
+- id: 20051317
+  title: "Template - Express - Handlebars"
+  url: /frontend/2020/05/13/template-express-handlebars/
+  
+- id: 20051217
+  title: "Template - Express - EJS"
+  url: /frontend/2020/05/12/template-express-ejs/
+  
+- id: 20051117
+  title: "Template - Express - Nunjucks"
+  url: /frontend/2020/05/11/template-express-nunjucks/
+  
+- id: 20051017
+  title: "Template - Express - Pug"
+  url: /frontend/2020/05/10/template-express-pug/
+  
+- id: 20050817
+  title: "Template - Grunt - Handlebars"
+  url: /frontend/2020/05/08/template-grunt-handlebars/
+  
+- id: 20050717
+  title: "Template - Grunt - EJS"
+  url: /frontend/2020/05/07/template-grunt-ejs/
+  
+- id: 20050617
+  title: "Template - Grunt - Nunjucks"
+  url: /frontend/2020/05/06/template-grunt-nunjucks/
+  
+- id: 20050517
+  title: "Template - Grunt - Pug"
+  url: /frontend/2020/05/05/template-grunt-pug/
+  
+- id: 20050317
+  title: "Template - HTML - Example Case"
+  url: /frontend/2020/05/03/template-html-link/
+  
+- id: 20050117
+  title: "Template - Overview"
+  url: /frontend/2020/05/01/template-overview/
+  
+- id: 20041917
+  title: "Bundler - Parcel"
+  url: /frontend/2020/04/19/tools-bundler-parcel/
+  
+- id: 20041817
+  title: "Bundler - Rollup - Part Two"
+  url: /frontend/2020/04/18/tools-bundler-rollup-02/
+  
+- id: 20041717
+  title: "Bundler - Rollup - Part One"
+  url: /frontend/2020/04/17/tools-bundler-rollup-01/
+  
+- id: 20041517
+  title: "Bundler - Webpack - Part Three"
+  url: /frontend/2020/04/15/tools-bundler-webpack-03/
+  
+- id: 20041417
+  title: "Bundler - Webpack - Part Two"
+  url: /frontend/2020/04/14/tools-bundler-webpack-02/
+  
+- id: 20041317
+  title: "Bundler - Webpack - Part One"
+  url: /frontend/2020/04/13/tools-bundler-webpack-01/
+  
+- id: 20041117
+  title: "Task Runner - Grunt"
+  url: /frontend/2020/04/11/tools-task-runner-grunt/
+  
+- id: 20040917
+  title: "Tools - Javascript - Coffescript"
+  url: /frontend/2020/04/09/tools-javascript-coffeescript/
+  
+- id: 20040817
+  title: "Tools - CSS - Stylus"
+  url: /frontend/2020/04/08/tools-css-stylus/
+  
+- id: 20040717
+  title: "Tools - HTML - Pug"
+  url: /frontend/2020/04/07/tools-html-pug/
+  
+- id: 20040617
+  title: "HTML - Inspect Element"
+  url: /frontend/2020/04/06/html-inspect-element/
+  
+- id: 20040517
+  title: "HTML - Developing Tips"
+  url: /frontend/2020/04/05/html-developing-tips/
+  
+- id: 20040317
+  title: "HTML - Javascript"
+  url: /frontend/2020/04/03/html-javascript/
+  
+- id: 20040217
+  title: "HTML - Stylesheet"
+  url: /frontend/2020/04/02/html-stylesheet/
+  
+- id: 20040117
+  title: "HTML - Overview"
+  url: /frontend/2020/04/01/html-overview/
+  
+- id: 20032517
+  title: "Hugo - Bulma MD - Overview"
+  url: /ssg/2020/03/25/hugo-bulma-md-overview/
+  
+- id: 20032117
+  title: "Practical Blog Development Cycle"
+  url: /frontend/2020/03/21/practical-blog-cycle/
+  
+- id: 20031517
+  title: "Bootstrap OC - Sass - Blog Post"
+  url: /frontend/2020/03/15/bootstrap-oc-sass-blog-post/
+  
+- id: 20031317
+  title: "Bootstrap OC - Sass - Widget"
+  url: /frontend/2020/03/13/bootstrap-oc-sass-widget/
+  
+- id: 20031217
+  title: "Bootstrap OC - Sass - Responsive"
+  url: /frontend/2020/03/12/bootstrap-oc-sass-responsive/
+  
+- id: 20031117
+  title: "Bootstrap OC - Sass - Open Color"
+  url: /frontend/2020/03/11/bootstrap-oc-sass-open-color/
+  
+- id: 20031017
+  title: "Bootstrap - Sass - Responsive"
+  url: /frontend/2020/03/10/bootstrap-sass-responsive/
+  
+- id: 20030917
+  title: "Bootstrap - Sass - Bootswatch"
+  url: /frontend/2020/03/09/bootstrap-sass-bootswatch/
+  
+- id: 20030817
+  title: "Bootstrap - Sass - Custom Class"
+  url: /frontend/2020/03/08/bootstrap-sass-custom-class/
+  
+- id: 20030717
+  title: "Bootstrap - Sass - Introduction"
+  url: /frontend/2020/03/07/bootstrap-sass-intro/
+  
+- id: 20030517
+  title: "Bootstrap - Navbar - Icons"
+  url: /frontend/2020/03/05/bootstrap-navbar-icons/
+  
+- id: 20030417
+  title: "Bootstrap - Navbar - Javascript"
+  url: /frontend/2020/03/04/bootstrap-navbar-javascript/
+  
+- id: 20030317
+  title: "Bootstrap - Navbar - Class"
+  url: /frontend/2020/03/03/bootstrap-navbar-class/
+  
+- id: 20030217
+  title: "Bootstrap - Minimal"
+  url: /frontend/2020/03/02/bootstrap-minimal/
+  
+- id: 20030117
+  title: "Bootstrap OC - Overview"
+  url: /frontend/2020/03/01/bootstrap-oc-overview/
+  
+- id: 20021917
+  title: "CI/CD - Git Hooks"
+  url: /devops/2020/02/19/ci-cd-git-hooks/
+  
+- id: 20021817
+  title: "CI/CD - Github Workflows"
+  url: /devops/2020/02/18/ci-cd-github-workflows/
+  
+- id: 20021717
+  title: "CI/CD - CircleCI - Part Three"
+  url: /devops/2020/02/17/ci-cd-circleci-03/
+  
+- id: 20021613
+  title: "CI/CD - CircleCI - Part Two"
+  url: /devops/2020/02/16/ci-cd-circleci-02/
+  
+- id: 20021617
+  title: "CI/CD - CircleCI - Part One"
+  url: /devops/2020/02/16/ci-cd-circleci-01/
+  
+- id: 20021513
+  title: "CI/CD - Travis - Part Two"
+  url: /devops/2020/02/15/ci-cd-travis-02/
+  
+- id: 20021517
+  title: "CI/CD - Travis - Part One"
+  url: /devops/2020/02/15/ci-cd-travis-01/
+  
+- id: 20021413
+  title: "CI/CD - Git Worktree - Part Two"
+  url: /devops/2020/02/14/ci-cd-git-worktree-02/
+  
+- id: 20021417
+  title: "CI/CD - Git Worktree - Part One"
+  url: /devops/2020/02/14/ci-cd-git-worktree-01/
+  
+- id: 20021317
+  title: "CI/CD - Zeit Now"
+  url: /devops/2020/02/13/ci-cd-zeit-now/
+  
+- id: 20021217
+  title: "CI/CD - Git Refs"
+  url: /devops/2020/02/12/ci-cd-git-refs/
+  
+- id: 20021017
+  title: "CI/CD - Deploy Overview"
+  url: /devops/2020/02/10/ci-cd-overview/
+  
+- id: 20012917
+  title: "Eleventy - Pagination - Screen Reader"
+  url: /ssg/2020/01/29/11ty-pagination-screenreader/
+  
+- id: 20012817
+  title: "Eleventy - Pagination - Responsive"
+  url: /ssg/2020/01/28/11ty-pagination-responsive/
+  
+- id: 20012717
+  title: "Eleventy - Pagination - Indicator"
+  url: /ssg/2020/01/27/11ty-pagination-indicator/
+  
+- id: 20012617
+  title: "Eleventy - Pagination - Logic"
+  url: /ssg/2020/01/26/11ty-pagination-logic/
+  
+- id: 20012517
+  title: "Eleventy - Pagination - Adjacent"
+  url: /ssg/2020/01/25/11ty-pagination-adjacent/
+  
+- id: 20012417
+  title: "Eleventy - Pagination - Navigation"
+  url: /ssg/2020/01/24/11ty-pagination-navigation/
+  
+- id: 20012317
+  title: "Eleventy - Pagination - Number"
+  url: /ssg/2020/01/23/11ty-pagination-number/
+  
+- id: 20012217
+  title: "Eleventy - Pagination - Simple"
+  url: /ssg/2020/01/22/11ty-pagination-simple/
+  
+- id: 20012117
+  title: "Eleventy - Pagination - Intro"
+  url: /ssg/2020/01/21/11ty-pagination-intro/
+  
+- id: 20012017
+  title: "Eleventy - Widget - Data"
+  url: /ssg/2020/01/20/11ty-widget-data/
+  
+- id: 20011917
+  title: "Eleventy - Widget - Nunjucks Loop"
+  url: /ssg/2020/01/19/11ty-widget-nunjucks-loop/
+  
+- id: 20011817
+  title: "Eleventy - Widget - Simple HTML"
+  url: /ssg/2020/01/18/11ty-widget-simple-html/
+  
+- id: 20011717
+  title: "Eleventy - Nunjucks - Index List"
+  url: /ssg/2020/01/17/11ty-nunjucks-index-list/
+  
+- id: 20011617
+  title: "Eleventy - Nunjucks - Layouts"
+  url: /ssg/2020/01/16/11ty-nunjucks-layout/
+  
+- id: 20011517
+  title: "Eleventy - Custom Output"
+  url: /ssg/2020/01/15/11ty-index-custom-output/
+  
+- id: 20011417
+  title: "Eleventy - Custom Index - Blog"
+  url: /ssg/2020/01/14/11ty-index-blog/
+  
+- id: 20011317
+  title: "Eleventy - Custom Index - Tags"
+  url: /ssg/2020/01/13/11ty-index-tags/
+  
+- id: 20011217
+  title: "Eleventy - Custom Index - Archive"
+  url: /ssg/2020/01/12/11ty-index-archive/
+  
+- id: 20011117
+  title: "Eleventy - Custom Index - Content"
+  url: /ssg/2020/01/11/11ty-index-content/
+  
+- id: 20011017
+  title: "Eleventy - Bulma - SASS Layout"
+  url: /ssg/2020/01/10/11ty-bulma-sass-layout/
+  
+- id: 20010917
+  title: "Eleventy - Bulma - SASS Intro"
+  url: /ssg/2020/01/09/11ty-bulma-sass-intro/
+  
+- id: 20010817
+  title: "Eleventy - Bulma - CSS Layout"
+  url: /ssg/2020/01/08/11ty-bulma-css-layout/
+  
+- id: 20010717
+  title: "Eleventy - Bulma - CSS Intro"
+  url: /ssg/2020/01/07/11ty-bulma-css-intro/
+  
+- id: 20010517
+  title: "Eleventy - Collections"
+  url: /ssg/2020/01/05/11ty-collections/
+  
+- id: 20010417
+  title: "Eleventy - Configuration"
+  url: /ssg/2020/01/04/11ty-configuration/
+  
+- id: 20010317
+  title: "Eleventy - Layout"
+  url: /ssg/2020/01/03/11ty-layout/
+  
+- id: 20010217
+  title: "Eleventy - Minimal"
+  url: /ssg/2020/01/02/11ty-minimal/
+  
+- id: 20010117
+  title: "Eleventy - Bulma MD - Overview"
+  url: /ssg/2020/01/01/11ty-bulma-md-overview/
+  
 - id: 19120117
-  title: "Pelican - Overview"
-  url: /ssg/2019/12/01/pelican-overview/
+  title: "Pelican - Bulma MD - Overview"
+  url: /ssg/2019/12/01/pelican-bulma-md-overview/
   
 - id: 19102117
   title: "Semantic UI - Overview"
   url: /frontend/2019/10/21/semantic-ui-overview/
   
+- id: 19101217
+  title: "PostCSS - Loop - SugarSS"
+  url: /frontend/2019/10/12/postcss-loop-sugarss/
+  
 - id: 19101117
   title: "PostCSS - Loop - Spacing Class"
   url: /frontend/2019/10/11/postcss-loop-spacing-class/
+  
+- id: 19101017
+  title: "PostCSS - Configuration"
+  url: /frontend/2019/10/10/postcss-configuration/
   
 - id: 19100417
   title: "Less - Conditional - Color Class"
@@ -21,40 +354,36 @@
   title: "Less - Loop - Spacing Class"
   url: /frontend/2019/10/03/less-loop-spacing-class/
   
-- id: 19090410
-  title: "Haskell - Tax Tariff - Part Four"
-  url: /code/2019/09/04/progressive-tax-tariff-04/
-  
-- id: 19090310
-  title: "Haskell - Tax Tariff - Part Three"
-  url: /code/2019/09/03/progressive-tax-tariff-03/
-  
-- id: 19090210
-  title: "Haskell - Tax Tariff - Part Two"
-  url: /code/2019/09/02/progressive-tax-tariff-02/
-  
-- id: 19090110
-  title: "Haskell - Tax Tariff - Part One"
-  url: /code/2019/09/01/progressive-tax-tariff-01/
-  
 - id: 19080117
-  title: "Jekyll - Overview"
-  url: /ssg/2019/08/01/jekyll-overview/
+  title: "Jekyll - Bulma MD - Overview"
+  url: /ssg/2019/08/01/jekyll-bulma-md-overview/
   
 - id: 19070117
-  title: "Eleventy - Overview"
-  url: /ssg/2019/07/01/11ty-overview/
+  title: "Eleventy - Materialize - Overview"
+  url: /ssg/2019/07/01/11ty-materialize-overview/
   
 - id: 19062117
   title: "Sass - Loop - Spacing Class"
   url: /frontend/2019/06/21/sass-loop-spacing-class/
   
+- id: 19061417
+  title: "Bulma MD - Blog Post"
+  url: /frontend/2019/06/14/bulma-md-blog-post/
+  
+- id: 19061317
+  title: "Bulma MD - Widget"
+  url: /frontend/2019/06/13/bulma-md-widget/
+  
+- id: 19061217
+  title: "Bulma MD - Helper"
+  url: /frontend/2019/06/12/bulma-md-helper/
+  
 - id: 19061117
-  title: "Frankenbulma - Overview"
+  title: "Bulma MD - Overview"
   url: /frontend/2019/06/11/bulma-md-overview/
   
 - id: 19060117
-  title: "Materialize - Overview"
+  title: "Materialize CSS - Overview"
   url: /frontend/2019/06/01/materialize-overview/
   
 - id: 19053009
@@ -463,7 +792,7 @@
   
 - id: 18081517
   title: "Git Pages - Deploying"
-  url: /ssg/2018/08/15/git-hosting/
+  url: /devops/2018/08/15/git-hosting/
   
 - id: 18081035
   title: "Bootstrap - Install Jekyll on RVM"
@@ -533,42 +862,6 @@
   title: "The LAMP Stack Evolution"
   url: /backend/2017/07/05/lamp-stack-evolution/
   
-- id: 17052410
-  title: "Examining Bind in Haskell: Do Notation"
-  url: /code/2017/05/24/examining-bind-04/
-  
-- id: 17052310
-  title: "Examining Bind in Haskell: Example using Number"
-  url: /code/2017/05/23/examining-bind-03/
-  
-- id: 17052210
-  title: "Examining Bind in Haskell: Hello World"
-  url: /code/2017/05/22/examining-bind-02/
-  
-- id: 17052135
-  title: "Explaining Monad: References"
-  url: /code/2017/05/21/explaining-monad-01/
-  
-- id: 17052035
-  title: "Explaining Monad: Overview"
-  url: /code/2017/05/20/explaining-monad-00/
-  
-- id: 17051535
-  title: "Loop in Haskell With Map, Part Three"
-  url: /code/2017/05/15/haskell-loop-with-map-03/
-  
-- id: 17051435
-  title: "Loop in Haskell With Map, Part Two"
-  url: /code/2017/05/14/haskell-loop-with-map-02/
-  
-- id: 17051335
-  title: "Loop in Haskell With Map, Part One"
-  url: /code/2017/05/13/haskell-loop-with-map-01/
-  
-- id: 17051235
-  title: "Loop in Haskell With Map, Overview"
-  url: /code/2017/05/12/haskell-loop-with-map-00/
-  
 - id: 16120452
   title: "Jekyll Directory Structure"
   url: /ssg/2016/12/04/jekyll-directory-structure/
@@ -636,10 +929,6 @@
 - id: 16051435
   title: "Jekyll Blog Overview"
   url: /ssg/2016/05/14/jekyll-blog-overview/
-  
-- id: 16051403
-  title: "How Haskell Syntax can Make Your Code Cleaner"
-  url: /code/2016/05/14/haskell-dollar-syntax/
   
 - id: 16022348
   title: "Inkscape: Anti Corruption Movement"
